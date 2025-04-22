@@ -12,7 +12,7 @@ public class Estagiario extends Funcionarios{
 
     void fazerTarefa(Funcionarios funcionarios){
         System.out.println("Qual tarefa deseja que ele faça? ");
-        String tarefa = scanner.next();
+        String tarefa = scanner.nextLine();
         System.out.println(funcionarios.getnome() + " agora está a " + tarefa);
     }
 
